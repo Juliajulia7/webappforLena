@@ -1,0 +1,29 @@
+body {
+    background: url("../img/1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   }
+
+ .navbar{
+   border: none;
+   border-radius: 0;
+   background-color: rgba(0,0,0,0.5);
+   font-family: 'Roboto';
+   font-size: 20px;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.ttf') format("truetype");
+}
+
+.navbar-nav .nav-link {
+  text-align: center;
+  padding: 5px;
+}
+
+.navbar-brand{
+  font-size: 20px;
+}
