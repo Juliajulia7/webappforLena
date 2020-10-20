@@ -12,6 +12,7 @@ body {
    background-color: rgba(0,0,0,0.5);
    font-family: 'Roboto';
    font-size: 15px;
+   height: 50px;
 }
 
 @font-face {
@@ -23,11 +24,16 @@ body {
   text-align: center;
   padding: 10px;
   margin: 0 10px;
-  
 }
 
 .navbar-brand{
-  font-size: 15px;
+  font-size: 18px;
+  font-weight:bold
+  font-family: 'Roboto';
+  padding: 13px 8px 10px 14px;
+}
+.dropdown{
+display: inline-block;
 }
 
 .dropdown-menu{
@@ -43,12 +49,25 @@ body {
   border-radius: 0;
   width: 190%;
   font-size: 1em;
+  display: none;
 }
+
+.dropdown-item{
+padding: 10px 8px 10px 14px;
+display: block;
+font-family: 'Roboto';
+}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
 .dropdown-item:hover{
   background-color: transparent !important;
   color:rgba(142,96,15,1)
 
 }
+
+.dropdown-menu:hover {display:inherit;}
+
 .dropdown-divider {
     border-color: rgba(0,0,0,0.5);
 }
