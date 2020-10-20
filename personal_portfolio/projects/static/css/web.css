@@ -31,7 +31,6 @@ body {
 }
 
 .dropdown-menu{
-  padding: 10px 8px 10px 14px;
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -40,17 +39,26 @@ body {
   background: transparent;
   line-height: 1;
   border: 0;
-  padding: 0;
+  padding: 10px 0px 10px 0px;
   border-radius: 0;
   width: 190%;
   font-size: 1em;
 }
+.dropdown-item:hover{
+  background-color: transparent !important;
+  color:rgba(142,96,15,1)
+
+}
+.dropdown-divider {
+    border-color: rgba(0,0,0,0.5);
+}
+
 #dropdownMenuButton {
   font-size: 15px;
   font-family: 'Roboto';
   padding: 10px 8px 10px 14px;
   position: relative;
-  width: 100%;
+  width: 110%;
   background: none; 
   border: none; 
   box-shadow: none;
