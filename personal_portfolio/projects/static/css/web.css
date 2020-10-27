@@ -82,3 +82,17 @@ font-family: 'Roboto';
   border: none; 
   box-shadow: none;
 }
+#headerLena{
+  font-size: 35px;
+  font-family: 'Roboto';
+  
+  font-weight:bold;
+
+}
+#devizLena{
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight:bold;
+ 
+  
+}
