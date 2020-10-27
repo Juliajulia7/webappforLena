@@ -4,8 +4,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
    }
-
+.main{
+    flex: 1 0 auto;
+}
  .navbar{
    border: none;
    border-radius: 0;
@@ -85,7 +90,7 @@ font-family: 'Roboto';
 #headerLena{
   font-size: 35px;
   font-family: 'Roboto';
-  
+
   font-weight:bold;
 
 }
@@ -93,6 +98,63 @@ font-family: 'Roboto';
   font-size: 15px;
   font-family: 'Roboto';
   font-weight:bold;
- 
-  
+
+
+}
+
+
+/* Main Footer */
+footer .main-footer{ padding: 20px 0; background: #252525;}
+footer ul{ padding-left: 0; list-style: none;}
+
+
+/* Footer Top */
+.footer-top{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ; padding-bottom: 30px; margin-bottom: 30px; border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{ background: transparent;}
+
+/* Footer light */
+footer.light .footer-top{ background: #f9f9f9;}
+footer.light .main-footer{ background: #f9f9f9;}
+
+/* Footer 4 */
+.footer- .logo { display: inline-block;}
+
+/*====================
+  Widgets
+====================== */
+.widget{ padding: 20px; margin-bottom: 40px;}
+.widget.widget-last{ margin-bottom: 0px;}
+.widget.no-box{ padding: 0; background-color: transparent; margin-bottom: 40px;
+  box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+.widget.subscribe p{ margin-bottom: 18px;}
+.widget li a{ color: #ff8d1e;}
+.widget li a:hover{ color: #4b92dc;}
+.widget .badge{ float: right; background: #7f7f7f;}
+
+
+.typo-light div,
+.typo-light span,
+.typo-light small{ color: #fff;}
+
+ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}
+.btn{background-color: #ff8d1e; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-webkit-transition: all 250ms ease-in-out 0s;
+-moz-transition: all 250ms ease-in-out 0s;
+-ms-transition: all 250ms ease-in-out 0s;
+-o-transition: all 250ms ease-in-out 0s;
+transition: all 250ms ease-in-out 0s;
+
+.footer {
+    flex: 0 0 auto;
 }
