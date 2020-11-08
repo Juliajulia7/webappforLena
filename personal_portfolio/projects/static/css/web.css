@@ -101,6 +101,19 @@ font-family: 'Roboto';
 
 
 }
+
+
+.rosa{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 180px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .social-footer2{
 display: flex;
   justify-content: center;
