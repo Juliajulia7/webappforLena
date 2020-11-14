@@ -18,3 +18,19 @@ def project_detail(request, pk):
     return render(request, 'project_detail.html', context)
 
 # Create your views here.
+
+def love_story(request):
+    
+    return render(request, 'love_story.html')
+
+def individual(request):
+    
+    return render(request, 'individual.html')
+
+def insta(request):
+    
+    return render(request, 'insta.html')   
+
+def wedding(request):
+    
+    return render(request, 'wedding.html')     

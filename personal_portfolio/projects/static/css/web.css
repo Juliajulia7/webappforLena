@@ -118,6 +118,35 @@ position: relative;
   margin-right: auto;
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.row .column{
+  flex: 33.3%;
+  width: auto;
+  overflow: hidden;
+  padding: 0 4px;
+  height: 100%;
+  
+}
+
+.column img{
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 800px){
+  .row .column{
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
 .social-footer2{
 display: flex;
   justify-content: center;
