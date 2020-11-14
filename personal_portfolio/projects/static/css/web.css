@@ -39,28 +39,30 @@ body {
 }
 .dropdown{
 display: inline-block;
+
 }
 
 .dropdown-menu{
-  background: #fff;
   border: 1px solid #ccc;
   border-radius: 6px;
   position: relative;
   font-size: 15px;
-  background: transparent;
+  background-color: rgba(0,0,0,0.5);
   line-height: 1;
   border: 0;
-  padding: 10px 0px 10px 0px;
+  padding: 5px 0px 10px 0px;
   border-radius: 0;
   width: 190%;
   font-size: 1em;
   display: none;
+  z-index:99999999;
 }
 
 .dropdown-item{
 padding: 10px 8px 10px 14px;
 display: block;
 font-family: 'Roboto';
+position: relative;
 }
 
 .dropdown:hover .dropdown-menu {display: block;}
@@ -80,18 +82,20 @@ font-family: 'Roboto';
 #dropdownMenuButton {
   font-size: 15px;
   font-family: 'Roboto';
-  padding: 10px 8px 10px 14px;
+  padding: 10px 8px 16px 14px;
   position: relative;
   width: 110%;
   background: none; 
   border: none; 
   box-shadow: none;
+  height:48px;
 }
 #headerLena{
   font-size: 35px;
   font-family: 'Roboto';
-
+  position: relative;
   font-weight:bold;
+  z-index:3;
 
 }
 #devizLena{
