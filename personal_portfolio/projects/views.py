@@ -31,6 +31,6 @@ def insta(request):
     
     return render(request, 'insta.html')   
 
-def wedding(request):
+def family(request):
     
-    return render(request, 'wedding.html')     
+    return render(request, 'family.html')     

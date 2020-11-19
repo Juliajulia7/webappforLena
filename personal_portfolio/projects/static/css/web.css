@@ -107,7 +107,8 @@ position: relative;
   font-size: 71px;
   text-shadow: rgb(98, 102, 101) 2px -2px 2px;
   left: -18%;
-  padding: -30px;
+  padding: -30%;
+  margin: -3% 8%;
 }
 
 #devizLena{
@@ -117,18 +118,61 @@ position: relative;
   font-size: 35px;
   text-shadow: rgb(98, 102, 101) 1px -2px 2px;
   left: -12%;
-  margin: -22px;
+  margin: 1% 5%;
 }
 #symbol{
 position: relative;
   color: rgb(0, 155, 119);
   left: -2%;
-  margin: 12px;
+  margin: -1% 8% 3%;
   font-size: 18px;
   text-shadow: rgb(98, 102, 101) 1px -2px 2px;
 }
 
+@media (max-width: 500px) { 
+  #symbol{
+    font-size: 10px;
+    margin: -4% 1% 2% 25%;
+  }
+  #devizLena{
+    font-size: 24px;
+    margin: -5% 1% 2% 15%;
+  }
+  #headerLena{
+    font-size: 50px;
+    margin: -6% 1% 2% 15%;
+  }
+}
 
+@media (min-width: 501px) and (max-width: 955px) { 
+  #symbol{
+    font-size: 15px;
+    margin: -4% 1% 2% 25%;
+  }
+  #devizLena{
+    font-size: 29px;
+    margin: -5% 1% 2% 15%;
+  }
+  #headerLena{
+    font-size: 55px;
+    margin: -6% 1% 2% 15%;
+  }
+}
+
+@media (min-width: 956px) and (max-width: 1111px) { 
+  #symbol{
+    font-size: 15px;
+    margin: -2% 1% 2% 13%;
+  }
+  #devizLena{
+    font-size: 29px;
+    margin: -4% 1% 2% 12%;
+  }
+  #headerLena{
+    font-size: 55px;
+    margin: -3% 1% 2% 15%;
+  }
+}
 
 .row{
   display: flex;
@@ -142,7 +186,7 @@ position: relative;
   overflow: hidden;
   padding: 0 4px;
   height: 100%;
-  
+  z-index: 0;
 }
 
 .column img{
@@ -158,6 +202,22 @@ position: relative;
   }
 }
 
+section .layer1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  z-index: -1;
+  filter: blur(10px);
+  background-position: center;
+}
 
 .social-footer2{
 display: flex;

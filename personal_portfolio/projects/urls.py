@@ -5,6 +5,5 @@ urlpatterns = [
     path("", views.project_index, name="project_index"),
     path("love_story/", views.love_story, name="love_story"),
     path("individual/", views.individual, name="individual"),
-    path("insta/", views.insta, name="insta"),
-    path("wedding/", views.wedding, name="wedding"),
+    path("family/", views.family, name="family"),
 ]
