@@ -15,20 +15,15 @@ body {
    border: none;
    border-radius: 0;
    background-color: rgba(0,0,0,0.5);
-   font-family: 'Roboto';
-   font-size: 15px;
    height: 50px;
 }
+
 
 @font-face {
 font-family: 'Olietta script BoldItalic';
 src: url('../fonts/Olietta_script_BoldItalic.ttf');
 }
 
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Light.ttf') format("truetype");
-}
 
 @font-face {
 font-family: 'CormorantInfant-Regular';
@@ -39,12 +34,15 @@ src: url('../fonts/CormorantInfant-Regular.ttf');
   text-align: center;
   padding: 10px;
   margin: 0 10px;
+  font-family: 'CormorantInfant-Regular';
+  color: rgb(0, 155, 9);
+  font-size: 18px;
 }
 
 .navbar-brand{
-  font-size: 18px;
+  font-size: 20px;
   font-weight:bold;
-  font-family: 'Roboto';
+  font-family: 'CormorantInfant-Regular';
   padding: 13px 8px 10px 14px;
 }
 .dropdown{
@@ -56,14 +54,12 @@ display: inline-block;
   border: 1px solid #ccc;
   border-radius: 6px;
   position: relative;
-  font-size: 15px;
   background-color: rgba(0,0,0,0.5);
   line-height: 1;
   border: 0;
   padding: 5px 0px 10px 0px;
   border-radius: 0;
-  width: 190%;
-  font-size: 1em;
+  width: 210%;
   display: none;
   z-index:99999999;
 }
@@ -71,16 +67,18 @@ display: inline-block;
 .dropdown-item{
 padding: 10px 8px 10px 14px;
 display: block;
-font-family: 'Roboto';
+font-family: 'CormorantInfant-Regular';
+color: rgba(255,255,255,255);
+font-size: 18px;
 position: relative;
 }
 
 .dropdown:hover .dropdown-menu {display: block;}
 
 .dropdown-item:hover{
+color:#009B77;
+text-shadow: rgb(255, 255, 255) 1px -1px 2px;
   background-color: transparent !important;
-  color:rgba(142,96,15,1)
-
 }
 
 .dropdown-menu:hover {display:inherit;}
@@ -105,7 +103,7 @@ position: relative;
   font-family: 'CormorantInfant-Regular';
   color: rgb(0, 155, 119);
   font-size: 71px;
-  text-shadow: rgb(98, 102, 101) 2px -2px 2px;
+  text-shadow: rgb(98, 102, 101) 1px -2px 2px;
   left: -18%;
   padding: -30%;
   margin: -3% 8%;
