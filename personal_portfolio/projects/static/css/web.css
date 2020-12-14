@@ -98,6 +98,8 @@ text-shadow: rgb(255, 255, 255) 1px -1px 2px;
   box-shadow: none;
   height:48px;
 }
+
+
 #headerLena{
   font-family: 'CormorantInfant-Regular';
   color: rgb(0, 155, 119);
@@ -137,7 +139,7 @@ text-shadow: rgb(255, 255, 255) 1px -1px 2px;
 
 }
 
-@media (min-width: 1150px) and (max-width: 1650px) {
+@media (min-width: 1150px) and (max-width: 1900px) {
   #symbol{
   position:fixed;
     font-size: 18px;
@@ -160,22 +162,23 @@ text-shadow: rgb(255, 255, 255) 1px -1px 2px;
 
 }
 
-@media (min-width: 1651px) {
+@media (min-width: 1901px) {
   #symbol{
-    font-size: 25px;
-    margin: -2% 1% 2% 13%;
+    font-size: 30px;
+    margin: 165px 223px;
   }
   #devizLena{
-  font-size: 45px;
-  left: -12%;
-  margin: 1% 5%;
+  position:fixed;
+  font-size: 50px;
+  margin: 103px 31px;
   }
   #headerLena{
-    font-size: 82px;
-    margin: -3% 1% 2% 15%;
+    position:fixed;
+    font-size: 92px;
+
   }
   .mainforName{
-  position:fixed;
+  position: absolute;
   top: 11%;
   left: 1%;
   }
@@ -202,7 +205,7 @@ text-shadow: rgb(255, 255, 255) 1px -1px 2px;
   margin-top: 8px;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
   .row .column{
     flex: 50%;
     max-width: 50%;
