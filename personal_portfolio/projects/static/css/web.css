@@ -16,6 +16,7 @@ body {
    border-radius: 0;
    background-color: rgba(0,0,0,0.5);
    height: 50px;
+   z-index: 99;
 }
 
 
@@ -99,7 +100,7 @@ display: inline-block;
   border-radius: 0;
   width: 210%;
   display: none;
-  z-index:99999999;
+  z-index:99;
 }
 
 .dropdown-item{
@@ -142,14 +143,17 @@ text-shadow: rgb(255, 255, 255) 1px -1px 2px;
   font-family: 'CormorantInfant-Regular';
   color: rgb(0, 155, 119);
   text-shadow: rgb(98, 102, 101) 1px -2px 2px;
+  z-index: -1;
 }
 
 #devizLena{
+  z-index: -1;
   font-family: 'CormorantInfant-Regular';
   color: rgb(0, 155, 119);
   text-shadow: rgb(98, 102, 101) 1px -2px 2px;
 }
 #symbol{
+  z-index: -1;
   color: rgb(0, 155, 119);
   font-size: 18px;
   text-shadow: rgb(98, 102, 101) 1px -2px 2px;
