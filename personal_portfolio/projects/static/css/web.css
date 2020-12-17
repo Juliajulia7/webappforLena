@@ -34,6 +34,7 @@ src: url('../fonts/CormorantInfant-Regular.ttf');
 .navbar-nav .nav-link {
   text-align: center;
   padding: 10px;
+  margin: 0 10px;
   font-family: 'CormorantInfant-Regular';
   font-size: 18px;
 }
