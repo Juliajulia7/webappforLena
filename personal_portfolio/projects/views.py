@@ -44,3 +44,6 @@ def family(request):
 
 def about(request):
     return render(request, 'about.html')
+
+def prices(request):
+    return render(request, 'prices.html')
