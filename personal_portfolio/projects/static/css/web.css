@@ -25,7 +25,7 @@ body {
 
 #headerLena {
     font-family: 'CormorantInfant-Regular';
-    color: rgb(0, 155, 119);
+    color: rgb(192, 192, 192);
     text-shadow: rgb(98, 102, 101) 1px -2px 2px;
     z-index: -1;
 }
