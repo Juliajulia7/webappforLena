@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_content %}
-
+<link rel="stylesheet" type="text/css" href="{% static 'css/lightbox.min.css' %}">
+<script src="{% static 'js/lightbox-plus-jquery.min.js' %}"></script>
+<title>Love story</title>
 <body>
 <section>
     <div class="layer1"></div>
@@ -9,13 +11,13 @@
     <div class="container-fluid">
         <div class="row">
             <div class="column">
-                <img src="{% static "img/DSC_0089.jpg" %}">
+                <a href="{% static "img/DSC_0089.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_0089.jpg" %}"></a>
             </div>
             <div class="column">
-                <img src="{% static "img/DSC_0095.jpg" %}">
+                <a href="{% static "img/DSC_0095.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_0095.jpg" %}"></a>
             </div>
             <div class="column">
-                <img src="{% static "img/DSC_0155.jpg" %}">
+                <a href="{% static "img/DSC_0155.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_0155.jpg" %}"></a>
             </div>
         </div>
     </div>

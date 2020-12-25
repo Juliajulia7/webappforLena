@@ -132,6 +132,12 @@ body {
     width: 100%;
     vertical-align: middle;
     margin-top: 8px;
+    transition: 1s;
+    padding: 6px;
+}
+
+.column img:hover {
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1000px) {

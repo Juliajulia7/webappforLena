@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_content %}
-
+<link rel="stylesheet" type="text/css" href="{% static 'css/lightbox.min.css' %}">
+<script src="{% static 'js/lightbox-plus-jquery.min.js' %}"></script>
+<title>Индивидуальная съемка</title>
 <body>
 <section>
 <div class="layer1"></div>
@@ -10,20 +12,20 @@
     <div class="container-fluid">
         <div class="row">
             <div class="column">
-                <img src="{% static "img/DSC_0787.jpg" %}">
-                <img src="{% static "img/DSC_0639.jpg" %}">
-                <img src="{% static "img/DSC_1981.jpg" %}">
-                <img src="{% static "img/DSC_3055.jpg" %}">
+                <a href="{% static "img/DSC_0787.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_0787.jpg" %}"></a>
+                <a href="{% static "img/DSC_0639.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_0639.jpg" %}"></a>
+                <a href="{% static "img/DSC_1981.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_1981.jpg" %}"></a>
+                <a href="{% static "img/DSC_3055.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_3055.jpg" %}"></a>
             </div>
             <div class="column">
-                <img src="{% static "img/DSC_1230.jpg" %}">
-                <img src="{% static "img/DSC_0646.jpg" %}">
-                <img src="{% static "img/DSC_2006.jpg" %}">
+                <a href="{% static "img/DSC_1230.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_1230.jpg" %}"></a>
+                <a href="{% static "img/DSC_0646.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_0646.jpg" %}"></a>
+                <a href="{% static "img/DSC_2006.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_2006.jpg" %}"></a>
             </div>
             <div class="column">
-                <img src="{% static "img/DSC_1236.jpg" %}">
-                <img src="{% static "img/DSC_0651.jpg" %}">
-                <img src="{% static "img/DSC_2104.jpg" %}">
+                <a href="{% static "img/DSC_1236.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_1236.jpg" %}"></a>
+                <a href="{% static "img/DSC_0651.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_0651.jpg" %}"></a>
+                <a href="{% static "img/DSC_2104.jpg" %}" data-lightbox="gallery"><img src="{% static "img/DSC_2104.jpg" %}"></a>
                 
             </div>
         </div>
