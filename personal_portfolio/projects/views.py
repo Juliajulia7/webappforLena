@@ -1,11 +1,12 @@
 from django.shortcuts import render
-
 from django.shortcuts import render
 from projects.models import Project
 from .forms import UserForm
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
+
+
 
 def project_index(request):
     projects = Project.objects.all()

@@ -1,3 +1,3 @@
 from django import forms
 class UserForm(forms.Form):
-     email= forms.EmailField()
+     email= forms.EmailField(label="")
