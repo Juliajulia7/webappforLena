@@ -31,8 +31,10 @@
   <th>Введи адрес электронной почты и получи скидку!</th>
 <th><form action="" method="POST">
 {% csrf_token %}
-{{ form.as_p }}
-  <input type="Submit" class="button" name="submit" value="Хочу скидку!"/></form></th>
+
+  <th style="color:black">{{ form.as_p }}
+  <input type="Submit" class="button" name="submit" value="Хочу скидку!"/></th>
+  </form></th>
 </tr>
 </table>
 {% endblock %}

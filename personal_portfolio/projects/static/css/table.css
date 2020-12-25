@@ -1,69 +1,83 @@
 .table_col {
-  font-family: 'CormorantInfant-Regular';
-  font-size: 20px;
-  width: 660px;
-  background: rgba(0, 0, 0, 0.75);
-  text-align: left;
-  border-collapse: collapse;
-  color: #FFFFFF;
-  margin: 10% 20%;
-  }
-.table_col .table_col td:first-child {
-color: #FFFFFF;
-border-left: none;
-}
-.table_col th {
-font-weight: normal;
-border-bottom: 2px solid #009B77;
-border-right: 20px solid transparent !important;
-border-left: 20px solid transparent !important;
-padding: 8px 10px;
-}
-.table_col td {
-border-right: 20px solid transparent !important;
-border-left: 20px solid transparent !important;
-padding: 12px 10px;
-color: #FFFFFF;
-}
-@media (max-width: 900px){
-.table_col{
-width: 10%;
-margin: 10% auto auto 0;}
+    font-family: 'CormorantInfant-Regular';
+    font-size: 20px;
+    width: 660px;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: left;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    margin: 10% 20%;
 }
 
+.table_col .table_col td:first-child {
+    color: #FFFFFF;
+    border-left: none;
+}
+
+.table_col th {
+    font-weight: normal;
+    border-bottom: 2px solid #009B77;
+    border-right: 20px solid transparent !important;
+    border-left: 20px solid transparent !important;
+    padding: 8px 10px;
+}
+
+.table_col td {
+    border-right: 20px solid transparent !important;
+    border-left: 20px solid transparent !important;
+    padding: 12px 10px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+    .table_col {
+        width: 10%;
+        margin: 10% auto auto 0;
+    }
+}
 
 .table_email {
-  font-family: 'CormorantInfant-Regular';
-  font-size: 20px;
-  width: 660px;
-  background: rgba(0, 0, 0, 0.75);
-  text-align: left;
-  border-collapse: collapse;
-  color: #FFFFFF;
-  margin: 10% 20%;
-  }
+    font-family: 'CormorantInfant-Regular';
+    font-size: 20px;
+    width: 660px;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: left;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    margin: 10% 20%;
+}
+
 .table_email .table_email td:first-child {
-color: #FFFFFF;
-border-left: none;
+    color: #FFFFFF;
+    border-left: none;
 }
+
 .table_email th {
-font-weight: normal;
-border-bottom: 2px solid #009B77;
-border-right: 20px solid transparent !important;
-border-left: 20px solid transparent !important;
-padding: 8px 10px;
+    font-weight: normal;
+    border-bottom: 2px solid #009B77;
+    border-right: 20px solid transparent !important;
+    border-left: 20px solid transparent !important;
+    padding: 8px 10px;
 }
+
 .table_email td {
-border-right: 20px solid transparent !important;
-border-left: 20px solid transparent !important;
-padding: 12px 10px;
-color: #FFFFFF;
+    border-right: 20px solid transparent !important;
+    border-left: 20px solid transparent !important;
+    padding: 12px 10px;
+    color: #FFFFFF;
 }
-@media (max-width: 900px){
-.table_email{
-width: 10%;
-margin: 10% auto auto 0;}
+
+@media (max-width: 900px) {
+    .table_email {
+        width: 10%;
+        margin: 10% auto auto 0;
+    }
 }
-.button{
-color: #009B77;
+
+.button {
+    color: #009B77;
+}
+
+input[type="Submit"] {
+    color: #009B77;
 }
