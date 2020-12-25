@@ -2,4 +2,37 @@
 {% load static %}
 {% block page_content %}
 <title>Услуги и цены</title>
+
+<table class="table_col">
+  <tr>
+    <th>Полноценная съемка</th>
+    <th>Экспресс съемка</th>
+    <th>Дополнительно</th>
+    </tr>
+  <tr>
+    <td data-label="Полноценная съемка">1 час</td>
+    <td data-label="Экспресс съемка">30 минут</td>
+    <td data-label="Дополнительно">Ретушь 1 фото от 300 рублей</td>
+    </tr>
+  <tr>
+    <td data-label="Полноценная съемка">15 фотографий в цветокоррекции и ретуши </td>
+    <td data-label="Экспресс съемка">10 фотографий в цветокоррекции и ретуши</td>
+    <td data-label="Дополнительно">Цветокоррекция 1 фото от 100 рублей</td>
+    </tr>
+  <tr>
+    <td data-label="Полноценная съемка">4000</td>
+    <td data-label="Экспресс съемка">2000</td>
+    <td data-label="Дополнительно"> </td>
+    </tr>
+</table>
+
+<table class="table_col">
+<tr>
+  <th>Введи адрес электронной почты и получи скидку!</th>
+<th><form action="" method="POST">
+{% csrf_token %}
+{{ form.as_p }}
+  <input type="Submit" class="button" name="submit" value="Хочу скидку!"/></form></th>
+</tr>
+</table>
 {% endblock %}

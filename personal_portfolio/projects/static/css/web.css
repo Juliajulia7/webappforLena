@@ -33,13 +33,13 @@ body {
 #devizLena {
     z-index: -1;
     font-family: 'CormorantInfant-Regular';
-    color: rgb(0, 155, 119);
+    color: rgb(192, 192, 192);
     text-shadow: rgb(98, 102, 101) 1px -2px 2px;
 }
 
 #symbol {
     z-index: -1;
-    color: rgb(0, 155, 119);
+    color: rgb(192, 192, 192);
     font-size: 18px;
     text-shadow: rgb(98, 102, 101) 1px -2px 2px;
 }
