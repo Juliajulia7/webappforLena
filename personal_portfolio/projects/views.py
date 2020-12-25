@@ -62,8 +62,8 @@ def prices(request):
         message = "Приглашаю Вас на фотосесию по специальной цене: экспресс фотосъемка - 1500 рублей, а полноценная фотосъмка - 3500!"
 
         # setup the parameters of the message
-        password = "ZG%TmpM@rqU6"
-        msg['From'] = "photoelenabocharova@gmail.com"
+        password = ""
+        msg['From'] = ""
         msg['To'] = emailvalue
         msg['Subject'] = "Персональная скидка на фотосессию!"
 
