@@ -59,7 +59,7 @@
 }
 
 .dropdown-item:hover {
-    color: #009B77;
+    color: #FFFFFF;
     text-shadow: rgb(255, 255, 255) 1px -1px 2px;
     background-color: transparent !important;
 }
